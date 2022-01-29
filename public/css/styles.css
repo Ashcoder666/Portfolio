@@ -5,10 +5,13 @@
 
 
 .firstpage{
-    background-image: url("../images/royalblue.jpg");
+    background-image: url("../images/orange.jpg");
 }
 .header-fixed{
     display: flex;
     position: fixed;
     justify-content: space-around;
+}
+.secondpage{
+    background-image: url("https://wallpapercave.com/wp/wp9223486.jpg");
 }
