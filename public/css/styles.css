@@ -1,0 +1,14 @@
+*{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+
+.firstpage{
+    background-image: url("../images/royalblue.jpg");
+}
+.header-fixed{
+    display: flex;
+    position: fixed;
+    justify-content: space-around;
+}
