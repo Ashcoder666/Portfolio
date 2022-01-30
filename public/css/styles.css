@@ -100,13 +100,15 @@
 .secondpage-content-div{
     position: absolute;
     left: 50%;
-    top: 150%;
+    top: 140%;
     transform: translate(-50%, -50%);
    width: 80%;
     text-align: center;
     font-family: 'Roboto Mono', monospace;
     padding: 5px;
     color: papayawhip;
+    margin-top: 100px !important;
+    
 }
 
 
@@ -129,4 +131,30 @@
 .thirdpage-child{
     width: 300px;
   
+}
+
+.fourthpage{
+    background-color: #031946;
+    color: white;
+}
+
+
+.contact-content{
+ margin-top: 100px !important;
+ 
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+.contact-form{
+  margin-top: 150px !important;
+
+}
+.button-form-last-ash{
+  position: absolute;
+  left: 45%;
+  margin-top: 10px !important;
 }
