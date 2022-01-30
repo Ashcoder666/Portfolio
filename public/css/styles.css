@@ -15,3 +15,27 @@
 .secondpage{
     background-image: url("https://wallpapercave.com/wp/wp9223486.jpg");
 }
+.firstpage-content-header{
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+
+    align-items: center;
+    justify-content: center;
+}
+.firstpage-content-div {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+   width: 70%;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    padding: 10px;
+    color: rgb(59, 21, 165);
+    -webkit-text-stroke: 1px  rgb(12, 12, 11);
+}
