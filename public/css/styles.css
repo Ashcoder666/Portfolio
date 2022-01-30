@@ -69,7 +69,8 @@
     justify-content: space-around;
 }
 .secondpage{
-    background-image: linear-gradient(rgb(114, 107, 107),rgb(167, 156, 156),rgb(219, 205, 205));
+   background-color: rgb(218, 181, 114);
+    /* background-image: linear-gradient(rgb(114, 107, 107),rgb(167, 156, 156),rgb(219, 205, 205)); */
 }
 .firstpage-content-header{
     display: -ms-flexbox;
@@ -108,3 +109,24 @@
     color: papayawhip;
 }
 
+
+.thirdpage{
+    background-color: rgb(27, 25, 25);
+
+}
+
+.thirdpage-content{
+    position: absolute;
+    left: 50%;
+    top: 250%;
+    transform: translate(-50%, -50%);
+   width: 80%;
+    text-align: left;
+    font-family: 'Roboto Mono', monospace;
+    padding: 5px;
+    color: papayawhip;
+}
+.thirdpage-child{
+    width: 300px;
+  
+}
