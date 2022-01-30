@@ -3,6 +3,62 @@
     padding: 0 !important;
 }
 
+.card{
+    
+    border-radius: 4px;
+    background: rgb(26, 3, 3);
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  padding: 14px 80px 18px 36px;
+  cursor: pointer;
+}
+
+.card:hover{
+     transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.card h3{
+  font-weight: 600;
+}
+
+.card img{
+  position: absolute;
+  top: 20px;
+  right: 15px;
+  max-height: 120px;
+}
+
+.card-1{
+  background-image: url(https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png);
+      background-repeat: no-repeat;
+    background-position: right;
+    background-size: 180px;
+    border: white 0.5px solid;
+}
+
+.card-2{
+   background-image: url(https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png);
+      background-repeat: no-repeat;
+    background-position: right;
+    background-size: 180px;
+    border: white 0.5px solid;
+}
+
+.card-3{
+   background-image: url("../images/node.png");
+      background-repeat: no-repeat;
+    background-position: right;
+    background-size: 180px;
+    border: white 0.5px solid;
+}
+
+@media(max-width: 990px){
+  .card{
+    margin: 20px;
+  }
+} 
+
 
 .firstpage{
     background-image: url("../images/orange.jpg");
@@ -13,7 +69,7 @@
     justify-content: space-around;
 }
 .secondpage{
-    background-image: url("https://wallpapercave.com/wp/wp9223486.jpg");
+    background-image: linear-gradient(rgb(114, 107, 107),rgb(167, 156, 156),rgb(219, 205, 205));
 }
 .firstpage-content-header{
     display: -ms-flexbox;
@@ -37,5 +93,18 @@
     font-family: 'Roboto Mono', monospace;
     padding: 10px;
     color: rgb(59, 21, 165);
-    -webkit-text-stroke: 1px  rgb(12, 12, 11);
+    -webkit-text-stroke: 0.5px  rgb(12, 12, 11);
 }
+
+.secondpage-content-div{
+    position: absolute;
+    left: 50%;
+    top: 150%;
+    transform: translate(-50%, -50%);
+   width: 80%;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    padding: 5px;
+    color: papayawhip;
+}
+
